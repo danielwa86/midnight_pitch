@@ -1,7 +1,5 @@
 # midnight_pitch
 
-**A physics based isometric football match simulation**
-
 `midnight_pitch` is a small browser-based football match simulation (built with Three.js) with an isometric view and ball physics and more
 
 ## Play
