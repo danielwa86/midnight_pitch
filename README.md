@@ -4,18 +4,7 @@
 
 ## Play
 
-```text
-https://danielwa86.github.io/midnight_pitch/
-```
-
-## Project files
-
-```text
-midnight_pitch/
-├─ index.html
-├─ match_engine_config.js
-└─ README.md
-```
+[danielwa86.github.io/midnight_pitch/](https://danielwa86.github.io/midnight_pitch/)
 
 ## Features
 
@@ -32,17 +21,28 @@ midnight_pitch/
 
 ## Controls
 
+**PC**
 | Control | Action |
 | --- | --- |
+| LMB | Kick ball |
 | Mouse wheel | Smooth zoom |
 | Right mouse drag | Pan camera |
 | Middle mouse drag | Rotate camera in isometric mode |
+
+**Touch**
+| Control | Action |
+| --- | --- |
+| Tap | Kick ball |
+| 2 finger drag | Pan camera |
+| Drag | Rotate camera |
+| Pinch | Smooth zoom (to-do) |
+
 
 ## Menus and known issues
 
 - Most menus are barebones or placeholder right now, but still work (try the manager cam)
 - Sometimes 2 players can get stuck in the same position before throw-in or corner, won't reset until half time or match end
-- Replays might cut off objects on aggressive angles
+- Replays might cut off objects on aggressive angle/zoom
 
 ## Configuration
 
@@ -72,6 +72,15 @@ After editing the config, refresh the browser page.
 ## Notes
 
 This is just a just for fun project made with AI and Inspired by Black & White, Football Manager and Project Zomboid.
+
+## Project files
+
+```text
+midnight_pitch/
+├─ index.html
+├─ match_engine_config.js
+└─ README.md
+```
 
 ## License
 
